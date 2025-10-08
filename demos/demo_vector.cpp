@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include <vector.hpp>
+#include <matrix.hpp>
 
 namespace bla = ASC_bla;
 
@@ -19,4 +20,6 @@ int main()
   bla::Vector<double> z = x+y;
   
   std::cout << "x+y = " << z << std::endl;
+
+  bla::Matrix<double> m(n, n);
 }
